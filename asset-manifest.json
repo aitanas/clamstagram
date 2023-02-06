@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/clamstagram/static/css/main.022c5fb7.css",
+    "main.js": "/clamstagram/static/js/main.ca204e22.js",
+    "static/js/787.b2ea905c.chunk.js": "/clamstagram/static/js/787.b2ea905c.chunk.js",
+    "static/media/usericon1.png": "/clamstagram/static/media/usericon1.6ef1e807c4fdfabd2f32.png",
+    "static/media/tahini.jpg": "/clamstagram/static/media/tahini.77957944b30725d8a563.jpg",
+    "static/media/usericon2.png": "/clamstagram/static/media/usericon2.6f38a954eea23bb9b15a.png",
+    "static/media/steamed-clams.jpeg": "/clamstagram/static/media/steamed-clams.e24ab92e8073507ba2eb.jpeg",
+    "static/media/Ranch.jpg": "/clamstagram/static/media/Ranch.c5d6dda30429ba65950a.jpg",
+    "static/media/a1.jpg": "/clamstagram/static/media/a1.456a415b016792e92723.jpg",
+    "static/media/Vinaigrette.jpg": "/clamstagram/static/media/Vinaigrette.02d9c951074ad23eadad.jpg",
+    "static/media/shellder.jpg": "/clamstagram/static/media/shellder.ea583d756830908a010a.jpg",
+    "static/media/caesar.jpeg": "/clamstagram/static/media/caesar.9f7049544345b1acc234.jpeg",
+    "index.html": "/clamstagram/index.html",
+    "main.022c5fb7.css.map": "/clamstagram/static/css/main.022c5fb7.css.map",
+    "main.ca204e22.js.map": "/clamstagram/static/js/main.ca204e22.js.map",
+    "787.b2ea905c.chunk.js.map": "/clamstagram/static/js/787.b2ea905c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.022c5fb7.css",
+    "static/js/main.ca204e22.js"
+  ]
+}
