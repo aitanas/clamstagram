@@ -1,3 +1,18 @@
+# CLAMSTAGRAM
+
+### A social media application to share photos of clams
+
+#### By Aitana Shough, Anton Ch, and Alex Johnson
+
+## Tools Used
+* JavaScript
+* Figma
+* React
+
+## Mockup
+
+![Clamstagram feed mockup](/clamstagram-mockup.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
