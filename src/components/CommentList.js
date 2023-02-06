@@ -15,7 +15,6 @@ const mainCommentList = [
 function CommentList(){
   return (
     <React.Fragment>
-      <hr />
       {mainCommentList.map((comment, index) => 
         <Comment userName={comment.userName}
           text={comment.text}

@@ -4,8 +4,7 @@ import PropTypes from "prop-types";
 function Comment(props){
   return (
     <React.Fragment>
-      <p><strong>{props.userName}</strong><br />
-      {props.text}</p>
+      <span class="comment"><strong>{props.userName}</strong> {props.text}</span>
     </React.Fragment>
   );
 }

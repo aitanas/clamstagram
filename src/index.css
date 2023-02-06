@@ -36,8 +36,8 @@ code {
 }
 
 .storyImg {
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   object-fit: cover;
   /* border-width: 3px;
@@ -46,17 +46,14 @@ code {
   padding: 4px;
   background: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 170)) padding-box,
   linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255)) border-box;
-
  }
- 
-
   
 .storyList {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: nowrap;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 .story {
@@ -68,7 +65,35 @@ code {
   width: 50vw;
 }
 
+.user-photo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 2px;
+  background: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 170)) padding-box,
+  linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255)) border-box;
+  margin-right: 10px;
+}
 
+.post-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 5px 0 5px 0;
+
+}
+
+.post-option {
+  font-size: 27px;
+  margin-left: 0;
+}
 
 .app {
   width: 50vw;
@@ -80,7 +105,10 @@ code {
 
 .story-text {
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+
 
 .header {
   position: fixed;
@@ -111,7 +139,26 @@ code {
 }
 
 body {
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 80px;
 }
 
+.date {
+  font-size: .8rem;
+  color:rgb(100, 100, 100);
+  margin-top: 0;
+}
+
+.post-info {
+  line-height: 1.6rem;
+}
+
+.comment {
+  display: block;
+  line-height: 1.4rem;
+}
+
+.view-all-comments {
+  color: rgb(100, 100, 100);
+  line-height: 1.6rem;
+}
