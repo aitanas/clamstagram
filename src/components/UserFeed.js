@@ -19,15 +19,15 @@ const mainUserPosts = [
 
 function UserFeed(){
   return ( 
-    <React.Fragment>
+    <div className="user-feed">
       <StoryList />
         {mainUserPosts.map((post, index) =>
-        <Post names={post.userName}
-          location={post.content}
-          issue={post.caption}
+        <Post userName={post.userName}
+          content={post.content}
+          caption={post.caption}
           key={index}/>
         )}
-    </React.Fragment>
+    </div>
   );
 }
 

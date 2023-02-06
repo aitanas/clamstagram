@@ -5,8 +5,8 @@ import CommentList from "./CommentList";
 function Post(props){
   return ( 
     <React.Fragment>
-      <img src={props.content} alt="Post"/><br />
-      <strong>{props.userName} {props.caption}</strong>
+      <img src={props.content} alt="Post" className="postImg"/><br />
+      <strong>{props.userName}</strong> {props.caption}
       <CommentList />
     </React.Fragment>
   );

@@ -32,7 +32,6 @@ const mainStoryList = [
 function StoryList(){
   return ( 
     <React.Fragment>
-    <hr/>
     <div className="storyList">
       {mainStoryList.map((story, index) =>
         <Story userName={story.userName}
@@ -40,6 +39,7 @@ function StoryList(){
         key={index} />
         )}
       </div>
+      <hr/>
     </React.Fragment> 
   );
 }

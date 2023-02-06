@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "./Header";
+import {Header} from "./Header";
 import UserFeed from "./UserFeed";
 import Footer from "./Footer";
 
 
 function App(){
   return ( 
-    <React.Fragment>
+    <div className="app">
       <Header />
       <UserFeed />
       <Footer />
-    </React.Fragment>
+    </div>
   )
 }
 
