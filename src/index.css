@@ -12,6 +12,22 @@ code {
     monospace;
 }
 
-.avatar {
+img {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+  object-fit: cover;
+ }
+ 
+
+.storyList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.story {
+  flex-direction: column;
 }

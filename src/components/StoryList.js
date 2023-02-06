@@ -33,11 +33,13 @@ function StoryList(){
   return ( 
     <React.Fragment>
     <hr/>
-    {mainStoryList.map((story, index) =>
-      <Story userName={story.userName}
-      content={story.content}
-      key={index} />
-      )}
+    <div className="storyList">
+      {mainStoryList.map((story, index) =>
+        <Story userName={story.userName}
+        content={story.content}
+        key={index} />
+        )}
+      </div>
     </React.Fragment> 
   );
 }
