@@ -13,6 +13,24 @@
 
 ![Clamstagram feed mockup](/clamstagram-mockup.png)
 
+## Component Diagram
+```
+App.js
+├── Header.js
+├── UserFeed.js
+│   ├── StoryList.js
+│   │   ├── Story.js
+│   ├── Post.js
+│   │   ├── Photo
+│   │   ├── CommentList.js
+│   │   │   ├── Comment.js               
+├── Footer.js
+```
+Note:
+Header & Footer are static
+
+![Clamstagram component diagram](/component-diagram.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
