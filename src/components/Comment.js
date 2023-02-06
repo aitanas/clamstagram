@@ -4,13 +4,14 @@ import PropTypes from "prop-types";
 function Comment(props){
   return (
     <React.Fragment>
-      <p><em>{props.username}</em> {props.text}</p>
+      <p><strong>{props.userName}</strong><br />
+      {props.text}</p>
     </React.Fragment>
   );
 }
 
 Comment.propTypes = {
-  username: PropTypes.string.isRequired,
+  userName: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired
 };
 

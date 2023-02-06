@@ -1,5 +1,5 @@
 import React from 'react';
-import Comment from './CommentList';
+import Comment from './Comment';
 
 const mainCommentList = [
   {
@@ -15,11 +15,12 @@ const mainCommentList = [
 function CommentList(){
   return (
     <React.Fragment>
+      <hr />
       {mainCommentList.map((comment, index) => 
         <Comment userName={comment.userName}
-          comment={comment.text}
+          text={comment.text}
           key={index}/>
-      )};
+      )}
     </React.Fragment>
   );
 }

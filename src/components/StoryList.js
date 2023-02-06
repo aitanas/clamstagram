@@ -37,8 +37,8 @@ function StoryList(){
       <Story userName={story.userName}
       content={story.content}
       key={index} />
-      )};
-      </React.Fragment> 
+      )}
+    </React.Fragment> 
   );
 }
 

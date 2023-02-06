@@ -1,10 +1,10 @@
 import React from "react";
 import CommentList from "./CommentList";
 
-function Post(){
+function Post(props){
   return ( 
     <React.Fragment>
-      <img />
+      <img src={props.content} alt=""/>
       <CommentList />
     </React.Fragment>
   );
