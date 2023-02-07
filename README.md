@@ -5,11 +5,12 @@
 #### By Aitana Shough, Anton Ch, and Alex Johnson
 
 #### 🐚 [Description](#description)
+#### 🦪[Technologies Used](#technologies-used)
 #### 🦞 [App Mockup](#mockup)
-#### 🦪 [Component Diagram](#component-diagram)
-#### 🐚 [Setup / Installation](#setup--installation)
+#### 🐚 [Component Diagram](#component-diagram)
+#### 🦪 [Setup / Installation](#setup--installation)
 #### 🦐 [Known Bugs](#known-bugs)
-#### 🦪 [License](#license)
+#### 🐚 [License](#license)
 
 ## Technologies Used
 * React
